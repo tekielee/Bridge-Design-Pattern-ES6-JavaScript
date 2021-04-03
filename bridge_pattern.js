@@ -18,17 +18,8 @@ class GreenCircle {
 	}
 }
 
-class Shape {
-	constructor(drawAPI) {
-		this.drawAPI = drawAPI;
-	}
-	
-	draw() {}
-}
-
-class Circle extends Shape {
+class Circle {
 	constructor(x, y, radius, drawAPI) {
-		super(drawAPI);
 		this.x = x;
 		this.y = y;
 		this.radius = radius;
